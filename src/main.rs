@@ -1,7 +1,7 @@
 use std::io::stdin;
 
 fn main() {
-    println!("Hello, world!");
+    println!("Введите значение х");
     let x = read_var();
     if x >= 0.0 && x <= 3.0 {
         let x = x.powi(2);
